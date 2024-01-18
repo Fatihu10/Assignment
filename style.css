@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.navBar {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 15px;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  background: white;
+  color: black;
+
+  width: 90%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.content h1 {
+  text-align: center;
+  font-size: ;
+  font-weight: 100;
+}
+.biography {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  width: 40%;
+  gap: 30px;
+}
+.biography h1 {
+  font-size: 40px;
+}
+.biography p {
+  font-size: 18px;
+  text-align: justify;
+}
+.container3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: auto;
+}
+.content2 {
+  display: flex;
+  text-align: right;
+  justify-content: center;
+  gap: 2px;
+}
+hr {
+  width: 100%;
+}
+.image {
+  display: flex;
+  width: 50%;
+  align-items: baseline;
+}
+.image img {
+  width: 100%;
+  align-items: baseline;
+}
